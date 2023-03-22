@@ -8,28 +8,29 @@ const About = () => {
         <div className='max-w-[1240px] mx-auto grid md:grid-cols-2'>
             <img src={Justin} alt="profile" className='w-[400px] mx-auto my-4 rounded-full'/>
             <div className='flex flex-col justify-center'>
-                <h1 className='text-black font-bold uppercase'>01. About Me</h1>
+                <h1 className='text-black font-bold uppercase text-2xl'>About Me</h1>
                 <p className='md:text-2xl text-xl py-2'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque quos eligendi corporis. Repellat cum aliquid libero a eos nisi adipisci quidem incidunt. Harum in rem, nesciunt perspiciatis incidunt suscipit non?
                 Libero aliquam commodi illum officia, nam nulla labore voluptatibus possimus molestiae porro vel natus doloremque quia vitae maxime. Dolore aliquid numquam fuga rerum explicabo quibusdam sunt, adipisci nobis recusandae rem.
                 Quam deleniti recusandae rerum blanditiis voluptates vitae assumenda possimus in ex fuga, accusamus, quae nisi expedita libero illo delectus inventore dicta beatae incidunt modi at doloribus, molestias facilis! Cum, debitis.
                 </p>
                 <div className='mx-auto md:mx-0 flex  md:space-x-4 space-x-6'>
-            <button className='bg-[#00df9a] rounded-md font-medium my-6  text-black  '>
+            <button className='bg-[#00df9a] rounded-md font-medium my-6  text-black  hover:scale-105 duration-150 ease-in-out'>
                 <SlSocialFacebook size={30} className="m-2 items-center justify-between"/>
             </button>
-            <button className='bg-[#00df9a] rounded-md font-medium my-6  text-black  '>
+            <button className='bg-[#00df9a] rounded-md font-medium my-6  text-black hover:scale-105 duration-150 ease-in-out '>
                 <SlSocialInstagram size={30} className="m-2 items-center justify-between"/>
             </button>
-            <button className='bg-[#00df9a] rounded-md font-medium my-6  text-black  '>
+            <button className='bg-[#00df9a] rounded-md font-medium my-6  text-black hover:scale-105 duration-150 ease-in-out '>
                 <SlSocialTwitter size={30} className="m-2 items-center justify-between"/>
             </button>
-            <button className='bg-[#00df9a] rounded-md font-medium my-6  text-black  '>
+            <button className='bg-[#00df9a] rounded-md font-medium my-6  text-black  hover:scale-105 duration-150 ease-in-out'>
                 <SlSocialLinkedin size={30} className="m-2 items-center justify-between"/>
             </button>
             </div>
             </div>
             
             </div>
+            <div className='border mx-[50px]'></div>
         </div>
   )
 }
