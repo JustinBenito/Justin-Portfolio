@@ -25,7 +25,7 @@ return (
     loading ? 
     (<div className="app">
     <HashLoader
-  color={'#00f9da'}
+  color={'#00df9a'}
   loading={loading}
   size={150}
   />
